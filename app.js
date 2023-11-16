@@ -184,7 +184,9 @@ if (!user) { return res.status(403).json({error: '➭ Chave da API inválida ou 
 					str = str.replace(/🔛 BY: @Skynet02Robot/gi, "");
 					str = str.replace(/\n\n\n\n/gi, "");
 					str = str.replace(/CONSULTA DE CPF 2 \n\n/gi, "CONSULTA DE CPF ");
-					str = str.replace(/\n👤 USUÁRIO: Teddy\n🤖 BY: @AnoninoBuscasOfcBot\n\n⚠️ PRECISANDO DE API'S REST? ACESSE: @SISTEMASARCADIAN/gi, "");
+					str = str.replace(/👤 USUÁRIO: Teddy\n🤖 BY: @AnoninoBuscasOfcBot\n\n⚠️ PRECISANDO DE API'S REST? ACESSE: @SISTEMASARCADIAN/gi, "");
+					str = str.replace(/str = str.replace(/👤 USUÁRIO: Teddy/gi, "");
+					str = str.replace(/🤖 BY: @AnoninoBuscasOfcBot/gi, "");
                     str = str.replace(/👤 USUÁRIO: Teddy\n🤖 BY: @AnoninoBuscasOfcBot/gi, "");
 					str = str.replace(/🔍 CONSULTA DE CPF1 COMPLETA 🔍/gi, "CONSULTA DE CPF ");
 					str = str.replace(/🔍 CONSULTA DE CPF3 COMPLETA 🔍/gi, "CONSULTA DE CPF ");
